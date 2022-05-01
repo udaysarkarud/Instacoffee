@@ -226,6 +226,27 @@ section{
     width: 100%;
     object-fit: cover;
 }
+.team .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,33rem);
+    justify-content: center;
+    gap: 1.5rem;
+}
+.team .box-container .box{
+    text-align: center;
+
+}
+.team .box-container .box img{
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: .5rem;
+
+}
+.team .box-container .box h3{
+    font-size: 2rem;
+    color: var(--black);
+
+}
 /* media queries */
 @media (max-width:991px){
     html{
